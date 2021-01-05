@@ -1,43 +1,32 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>{{ page.title }}</title>
-    <meta charset='UTF-8'>
-    <meta content='width=device-width, initial-scale=1' name='viewport'/>
 
-    <meta name='description' content='Gregory Gundersen is a PhD candidate at Princeton.'>
-    <meta name='keywords' content='{{ page.keywords }}'>
-    <meta name='author' content='Gregory Gundersen'>
+  <head>
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
+  </head>
 
-    <link href='/css/blog.css' rel='stylesheet'/>
-    <link href='/css/trac.css' rel='stylesheet'/>
-    <link href='/css/markdown.css' rel='stylesheet'/>
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    {% include mathjax.html %}
-</head>
-<body>
-<div class='content'>
-    {% include nav.html %}
-    <div class='front-matter'>
-        <div class='wrap'>
-            <h1>{{ page.title }}</h1>
-            <h4>{{ page.subtitle }}</h4>
-            <div class='bylines'>
-                <div class='byline'>
-                    <h3>Published</h3>
-                    <p>{{ page.date |  date: '%d %B %Y' }}</p>
-                </div>
-            </div>
-            <div class='clear'></div>
-        </div>
+    <!-- Header -->
+
+    {% include header.html %}
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      {{ content }}
     </div>
-    <div class='wrap article'>
-        {{ content }}
-    </div>
-    <div id='bibliography'>
-        <div class='wrap'>
-            {% bibliography --cited %}
-        </div>
-    </div>
-</div>
-</body>
+
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+  </body>
+
+  {% include scripts/jquery.html %}
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+
 </html>
