@@ -45,7 +45,6 @@
   padding: 10px 10px;
   box-sizing: border-box;
 }
-
 .column,
 .columns {
   width: 100%;
@@ -172,14 +171,14 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #222;
+  color: #3A4CC0;
   text-decoration: none;
   //background-color: transparent;
   -webkit-transition: color .4s;
   transition: color .4s;
 }
 a:hover {
-  color: #3A4CC0;
+  color: #b1b1b1;
   text-decoration: underline;
 }
 
