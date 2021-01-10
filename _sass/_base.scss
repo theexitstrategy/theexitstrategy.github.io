@@ -171,15 +171,16 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #3A4CC0;
+  color: #222222;
   text-decoration: none;
   //background-color: transparent;
   -webkit-transition: color .4s;
   transition: color .4s;
 }
+
 a:hover {
-  color: #b1b1b1;
-  text-decoration: underline;
+  color: #3A4CC0;
+  text-decoration: none;
 }
 
 
