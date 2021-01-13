@@ -219,12 +219,19 @@ p.readmore {
 }
 
 .article-content a {
-  border-bottom:1px dotted red;
+  color:#3A4CC0;
+  border-bottom:1px underline #3A4CC0;
   text-decoration:none;
 }
+.article-content a:link {
+  color:#3A4CC0;
+  border-bottom:1px underline #3A4CC0;
+  text-decoration:none;
+}
+
 .article-content a:hover {
-  color:red;
-  border-bottom:1px dotted red;
+  color:#3A4CC0;
+  border-bottom:1px underline #3A4CC0;
 }
 
 .article-footer {
