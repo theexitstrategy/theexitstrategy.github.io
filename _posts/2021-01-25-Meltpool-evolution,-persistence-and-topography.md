@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Meltpool evolution, persistence and topography"
+subtitle: "Contrary to popular belief the emerging meltpool is not constant over the course of a hatch. Different regions with specific meltpool regimes emerge that have vastly different behavior."
 date: 2021-01-25 20:05:00 +0100
 categories: model, meltpool, visualization
 ---
 
-## Meltpool evolution - The effect of the cross snake strategy
+### Meltpool evolution - The effect of the cross snake strategy
 
 The standard strategy for contour filling in electron beam powder based additive manufacturing is the *cross-snake* scan strategy. Parallel lines with a defined spacing (*line-offset*) are used to fill the contour. For the melting process the beam follows one line and changes direction when changing lines at the end of one line.
 

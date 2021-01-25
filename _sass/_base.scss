@@ -446,3 +446,8 @@ blockquote {
   border-left: 3px solid #D0E5F2;
   font-size: 1.3rem;
 } 
+
+p .md-image:only-child{
+    width: auto;
+    text-align: inherit;
+}
