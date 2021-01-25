@@ -12,6 +12,10 @@ The standard strategy for contour filling in electron beam powder based additive
 
 Consider the most simple case of a cuboid with constant scan length. Even in this simple case, the cross-snake strategy inherently leads to variable return times at each position of the domain. After melting the first melt line of a pristine surface, the beam changes direction one line offset further away. The corresponding return time at the turning point position is $t_{ret}(x_{tp}, y_{tp})=0$. Along the second scan line, the return time increases as a linear function of the current position until the end of the scan line is reached, where it takes two lines worth of time until the beam returns at the same position one line offset away $t_{ret} = 2 \cdot \frac{l_m}{v}$. For the next line this alternating phenomena continuous. [Figure 1](*Figure 1: Return times of two subsequent hatch lines of  a cuboid hatch domain with 15 mm scan length. Vector n depicts the second vector of the hatch which starts at a position of 15 mm*) shows the nature of the return times for two subsequent hatch vectors in this case. In the center line of the hatch a mean return time can be measured, that is equal for both moving directions of the beam. The mean return time is equal to one complete hatchline traveled by the beam $t_{ret} = \frac{l_m}{v}$ . 
 
+<!--description-->
+
+
+
 <img src="https://theexitstrategy.github.io/assets/img//Return_times.png" align="center" alt="Return_times" style="zoom:25%;"  />
 
 
