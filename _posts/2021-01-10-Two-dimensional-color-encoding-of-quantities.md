@@ -7,13 +7,13 @@ categories: Visualization
 
 The representation of two quantities in 2 dimensional space, which cannot be separated, requires the combined color encoding. Lets say we want to identify the solidification conditions at each location of a meltpool `(x, y)` which are defined by the *solidification velocity* as well as the [temperature gradient](https://en.wikipedia.org/wiki/Temperature_gradient) at each position. Typically, these conditions are combined into a **G-V-diagram**. 
 
+$$x c = \pm\sqrt{a^2 + b^2}$$
 
 
-```
-{% katex %}
-c = \pm\sqrt{a^2 + b^2}
-{% endkatex %}
-```
+$$
+x c = \pm\sqrt{a^2 + b^2}
+$$
+
 
 
 
