@@ -16,6 +16,7 @@ author:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-katex
 
 # Build settings
 markdown: kramdown
