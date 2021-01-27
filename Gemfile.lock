@@ -269,7 +269,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-katex
-  minima (~> 2.5)
 
 BUNDLED WITH
    2.2.4
