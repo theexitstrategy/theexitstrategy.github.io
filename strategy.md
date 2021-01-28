@@ -1,6 +1,5 @@
 ---
 layout: page
-title: strategy
+title: Don't fucking sell!
 ---
 
-## Don't fucking sell!
