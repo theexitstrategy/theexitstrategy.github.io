@@ -5,7 +5,7 @@ date: 2021-01-28 20:05:00 +0100
 categories: Visualization
 ---
 
-The culmination of two concepts lead to the creation of this blog.
+The combination of two concepts lead to the creation of this blog.
 
 - Various examples show how writing is detrimental for [better thinking and researching](http://gregorygundersen.com/blog/2020/01/12/why-research-blog/).
 - Any researcher has to [keep oneself accountable](https://en.wikipedia.org/wiki/Skin_in_the_Game_(book)) for each decision and action. 
