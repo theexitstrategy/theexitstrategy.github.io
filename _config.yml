@@ -1,0 +1,36 @@
+# Setup
+title:               Additive Manufacturing & Optimization
+tagline:             #'Additive Manufacturing, Optimization & Emergent Phenoemena'
+description:         'Blank Page'
+url:                 
+baseurl:             
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Christoph Breuning
+  url:               https://twitter.com/chrisbreu
+  email:             
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-katex
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Katex Test
+katex:
+  js_path: "assets"  # Path used to search for katex.min.js
+  rendering_options:
+    # Default KaTeX rendering options. See https://github.com/Khan/KaTeX#rendering-options
+    throw_error: true      # throwOnError - set to false if you want rendering to output error as text rather than a build error
+    error_color: "#cc0000"  # errorColor
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: G-B5036J3H1X
