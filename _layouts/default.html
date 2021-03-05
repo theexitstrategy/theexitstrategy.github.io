@@ -1,20 +1,50 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    <div class="page-content">
-      <div class="container">
-        <div class="three columns">
-          {% include header.html %}
-        </div>
+<html lang="en-us">
 
-        <div class="nine columns" style="z-index:100;">
-          <div class="wrapper">
-            {{ content }}
+  {% include head.html %}
+  {% include mathjax.html %}
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"></script>
+  
+  <style>
+    .img-container {
+      text-align: center;
+    }
+  </style>
+
+  <body>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <div class="img-container"> <!-- Block parent element -->
+            <p class="aligncenter">
+            <img src="https://theexitstrategy.github.io/imgs/logo_2.png" alt="Logo" />
+            </p>
           </div>
+          <h2 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          </h2>
+          <h2 class="masthead-title">
+            <small>{{ site.tagline }}</small>
+          </h2>
+          <!-- Add Additonal Pages here! -->
         </div>
       </div>
-      <!--{% include footer.html %}-->
-    </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+
   </body>
 </html>
