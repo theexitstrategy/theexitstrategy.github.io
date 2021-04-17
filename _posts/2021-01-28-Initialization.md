@@ -3,7 +3,7 @@ layout: post
 title:  "Initialization"
 date: 2021-01-28 20:05:00 +0100
 categories: Visualization
-published: False
+published: True
 ---
 
 The combination of two concepts lead to the creation of this blog.
