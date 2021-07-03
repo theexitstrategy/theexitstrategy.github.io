@@ -440,18 +440,12 @@ a.pagination-item:hover {
 }
 
 figcaption{
-  background-color: black;
-  color: white;
+  color: black
   font-style: italic;
   padding: 2px;
-  text-align: center;
+  text-align: left;
+  font-size: small;
 }
 
-figcaption{
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-}
+
 
