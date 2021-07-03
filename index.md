@@ -7,6 +7,9 @@ This is the Website of **Christoph Breuning**. The Objective of this page is to 
 
 
 
+
+
+
 <div class='figure'>
     <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Persistence_133.png?raw=true"
          style="width: 60%; display: block; margin: 0 auto;"/>
@@ -23,3 +26,10 @@ This is the Website of **Christoph Breuning**. The Objective of this page is to 
 <br>
 
 Whatever happens here now.
+
+<center>
+<figure>
+  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Persistence_133.png?raw=true" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
+</figure>
+</center>
