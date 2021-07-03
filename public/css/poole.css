@@ -447,7 +447,7 @@ caption{
   text-align: center;
 }
 
-.figcaption {
+caption{
   background-color: black;
   color: white;
   font-style: italic;
