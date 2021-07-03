@@ -234,6 +234,15 @@ img {
   border-radius: 5px;
 }
 
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+
 /* Tables */
 table {
   margin-bottom: 1rem;
