@@ -74,7 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 48rem;
-  text-justify: auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @media (min-width: 800px) {
