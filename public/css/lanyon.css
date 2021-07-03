@@ -568,3 +568,8 @@ a.pagination-item:hover {
 .aligncenter {
     text-align: center;
 }
+
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+}
