@@ -234,7 +234,7 @@ img {
   border-radius: 5px;
 }
 
-figcaption {
+.figcaption {
   background-color: black;
   color: white;
   font-style: italic;
