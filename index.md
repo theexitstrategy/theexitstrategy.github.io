@@ -13,3 +13,4 @@ Further topics to consider working on (that require more though):
 - Including the effect of preheating, especially for more geometries in the build chamber, on the melt pool formation. Add additional heating steps to reach a constant temperature prior for each geometry in the build.
 - Spot Melting as alternative melting strategy to reach geometry independent properties and also extend the space of possible reachable microstructures. The goal of the spot melt strategy should be the independence of each single spot from all other spots to reach high solidification velocities and keeping a constant melt pool geometry of each spot.
 
+Apart from additive manufacturing i am also interested in several topics including biology, complex systems and cooking.
