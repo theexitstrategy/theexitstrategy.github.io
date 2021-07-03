@@ -234,14 +234,6 @@ img {
   border-radius: 5px;
 }
 
-.figcaption {
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-}
-
 
 /* Tables */
 table {
@@ -445,4 +437,20 @@ a.pagination-item:hover {
 .marginauto {
     margin: 10px auto 20px;
     display: block;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
 }
