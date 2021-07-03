@@ -11,7 +11,7 @@ This is the Website of **Christoph Breuning**. The Objective of this page is to 
     <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Persistence_133.png?raw=true"
          style="width: 60%; display: block; margin: 0 auto;"/>
     <div class='caption'>
-        <span class='caption-label'>Figure 1.</span> Diagram of rejection sampling. The 
+        <b>Figure 1.</b> Diagram of rejection sampling. The 
         density $q(\mathbf{z})$ must be always greater than $p(\mathbf{x})$. A new sample 
         is rejected if it falls in the gray region and accepted otherwise. These accepted 
         samples are distributed according to $p(\mathbf{x})$. This is achieved by sampling 
