@@ -15,5 +15,7 @@ The core idea of this project is the relationship between the thermal field / me
 
 
 
+---
+
 [^1]: Maybe it is possible to create a process parameter map for single lines in the quasi-stationary state to show the parameter influence. In this case the line energy should more or less determine the meltpool depth, as the return time does not really play a role and only the total energy input is important. The velocity however should determine the time for diffusion and the length of the melt pool trail should increase with higher velocities
 
