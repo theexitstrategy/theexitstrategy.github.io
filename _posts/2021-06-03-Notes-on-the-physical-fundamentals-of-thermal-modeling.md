@@ -3,7 +3,7 @@ layout: post
 title:  "Notes on the physical fundamentals of thermal modeling"
 date: 2021-06-03 20:05:00 +0100
 categories: Basics
-published: False
+published: True
 ---
 
 Temperature is a physical quantity that characterizes the degree of heat in a body. A temperature field is a set of temperature values $T$ at all points of the body at a given time:
