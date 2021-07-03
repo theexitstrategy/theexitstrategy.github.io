@@ -428,3 +428,12 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.aligncenter {
+    text-align: center;
+}
+
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+}
