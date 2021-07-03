@@ -439,7 +439,7 @@ a.pagination-item:hover {
     display: block;
 }
 
-figcaption {
+caption{
   background-color: black;
   color: white;
   font-style: italic;
@@ -454,3 +454,4 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
+
