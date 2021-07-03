@@ -7,4 +7,5 @@ This is the Website of **Christoph Breuning**. The Objective of this page is to 
 
 
 
-<img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Persistence_133.png?raw=true" style="zoom:25%;" />
+<img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Persistence_133.png?raw=true" style="zoom:25%; class="center"" />
+
