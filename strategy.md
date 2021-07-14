@@ -3,6 +3,11 @@ layout: page
 title: Strategy
 ---
 
+The strategy of this project can be seperated into three distinct parts:
+
+The first part focuses on the description of the spatio-temporal evolution of temperature fields for simple geometries with constant scanlengths, which shows a change of the meltpool geometry over the course of the hatching process due to the superposition of the temperature field of adjacent hatch lines. This change of meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. The meltpool geomtry in the quasi-stationary state of the hatch also changes with respect to the processing parameters $P,v,L_{off},T_{preheat},\sigma_{beam}$.
+
+
 **Prometheus**
 - Implementation of waiting time segments around the current geometry instead of the complete preheating area to reduce the jump length back towards the actual hatch line and prevent potential inaccuracies.
   - Add center coordinates of the contour and the bounding rectangle to hdf5 output for better accessablity
