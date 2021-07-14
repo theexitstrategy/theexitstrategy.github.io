@@ -11,14 +11,23 @@ title: Strategy
   - The geometric expression would be to find the contours of different colored polygons which are stacked on top of each other and cover parts of each other. This should yield seperate polygons for each layer and level which can be hatched and interleaved in the following step.
   
     ```python
+    # Go through each Overhang Level
     for i in range(layers_to_consider):
+      
+      # Combine all lower levels into a polygon that lies above the current one
       combined_polygon = []
       for k in range(i-1):
         combined_polygon.append(overhang_areas[k])
+
+      # Clip the current overhang level polygon with respect to the ones that lie above to obtain the new overhang polygon for the current level i. 
       overhang_areas_new[i] = clip_current(combined_polygon)
+
+    # Combine each overhang level into the entirety of overhang contours
     combined_polygon_new = []
     for i in range(len(overhang_areas_new)):
       combined_polygon_new.append(overhang_areas_new[i])
+
+    # Clip the cross-section contour with respect to the entirety of overhang contours to obtain the non-overhang contour segments.
     non_overhang_contour = clip_contour(combined_polygon_new)
     ```
 
