@@ -24,8 +24,7 @@ Based on these representations, simple conditions can be formulated that create 
 - Consolidation Boundary: 
 - Persistence Boundary:
 - Meltpool Stability Limit Boundary:
-
-
+</p>
 
 
 
