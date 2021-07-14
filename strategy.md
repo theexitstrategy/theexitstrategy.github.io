@@ -6,14 +6,24 @@ title: Strategy
 The strategy of this project can be seperated into three distinct parts:
 
 ### 1. Spatio-temporal meltpool evolution
-The first part focuses on the description of the spatio-temporal evolution of temperature fields for simple geometries with constant scanlengths, which shows a change of the meltpool geometry over the course of the hatching process due to the superposition of the temperature field of adjacent hatch lines. This change of meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. 
-The meltpool geomtery in the quasi-stationary state of the hatch also changes with respect to the processing parameters $P,v,L_{off},T_{preheat},\sigma_{beam}$. These variations in meltpool geometry can be expressed in **meltpool-geometry-maps**, which describe the `meltpool-depth`, `lateral-meltpool-extension` as well as the `persistence-regime`.
+The first part focuses on the description of the spatio-temporal evolution of temperature fields to understand the underlying relationships between process parameters and the emerging temperature field.
+<br>
+The temperature fields for *single-lines* are determined and the meltpool geometry is described using the `meltpool-depth` and the `meltpool-length`. The underlying relationship between *energy-input* by the electron beam and *heat-diffusion* away from the beam path can be clearly shown with the elongation of the meltpool at higher $v$ with the same energy input at each point $\frac{P}{v}=const.$. In this case the time for heat diffusion is lower when the beam reaches the end of the single line and as a result, the heat is still concentrated within the melt pool and the meltpool elongates.
+<br>
+The standard hatching process, where parallel lines with a defined line-offset $l_{off}$ are molten subsequently, introduces the superposition of temperature fields. As the $l_{off} is typically smaller then the beam diameter, neighboring hatch lines are already heated from previous lines and therefore melt on a higher temperature baseline. This effects the meltpool geometry, which increases with each subsequent hatchline due to the superposition of temperature fields. This change of the meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. 
+<br>
+The meltpool geomtery in the quasi-stationary state of the hatch also changes with respect to the processing parameters $P,v,L_{off},T_{preheat},\sigma_{beam}$, similar to the single line. However, second-order interactions make for a complex system that has to be described.
+If we increase the velocity $v$ of the beam and keeping the energy input constant $\frac{P}{v}=const.$, the temperature at the end of the hatch line increases continously since the time for heat diffusion decreases and the heat is still concenrated at the former beam position.
+As a result, the subsequent hatch line also melts on a surface with an higher temperature and the meltpool size increases more compared to a lower velocity.
+If we continue to increase the velocity $v$, we reach the point where the meltpool of the previous hatchline is still liquid when the beam starts at the next following hatch line and as a result a **persistent**, line shaped meltpool emerges that traverses the surface.
+<br>
+These variations in meltpool geometry can be expressed in **meltpool-geometry-maps**, which describe the `meltpool-depth`, `lateral-meltpool-extension` as well as the `persistence-regime`.
 
 Based on these representations, simple conditions can be formulated that create boundaries for processing of dense samples with a high degree of consolidation and connection to previous layers as well as an even surface.
 
-- **Consolidation Boundary**: 
-- **Persistence Boundary**:
-- **Meltpool Stability Limit Boundary**:
+- Consolidation Boundary: 
+- Persistence Boundary:
+- Meltpool Stability Limit Boundary:
 
 
 
