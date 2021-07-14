@@ -5,7 +5,18 @@ title: Strategy
 
 The strategy of this project can be seperated into three distinct parts:
 
-The first part focuses on the description of the spatio-temporal evolution of temperature fields for simple geometries with constant scanlengths, which shows a change of the meltpool geometry over the course of the hatching process due to the superposition of the temperature field of adjacent hatch lines. This change of meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. The meltpool geomtry in the quasi-stationary state of the hatch also changes with respect to the processing parameters $P,v,L_{off},T_{preheat},\sigma_{beam}$.
+### 1. Spatio-temporal meltpool evolution
+The first part focuses on the description of the spatio-temporal evolution of temperature fields for simple geometries with constant scanlengths, which shows a change of the meltpool geometry over the course of the hatching process due to the superposition of the temperature field of adjacent hatch lines. This change of meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. 
+The meltpool geomtery in the quasi-stationary state of the hatch also changes with respect to the processing parameters $P,v,L_{off},T_{preheat},\sigma_{beam}$. These variations in meltpool geometry can be expressed in **meltpool-geometry-maps**, which describe the `meltpool-depth`, `lateral-meltpool-extension` as well as the `persistence-regime`.
+
+Based on these representations, simple conditions can be formulated that create boundaries for processing of dense samples with a high degree of consolidation and connection to previous layers as well as an even surface.
+
+- **Consolidation Boundary**: 
+- **Persistence Boundary**:
+- **Meltpool Stability Limit Boundary**:
+
+
+
 
 
 **Prometheus**
