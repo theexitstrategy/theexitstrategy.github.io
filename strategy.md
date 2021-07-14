@@ -10,17 +10,17 @@ title: Strategy
 - Extend the implementation of the overhang detection to extract overhang areas with different overhang levels.
   - The geometric expression would be to find the contours of different colored polygons which are stacked on top of each other and cover parts of each other. This should yield seperate polygons for each layer and level which can be hatched and interleaved in the following step.
   
-  ```python
-  for i in range(layers_to_consider):
-    combined_polygon = []
-    for k in range(i-1):
-      combined_polygon.append(overhang_areas[k])
-    overhang_areas_new[i] = clip_current(combined_polygon)
-  combined_polygon_new = []
-  for i in range(len(overhang_areas_new)):
-    combined_polygon_new.append(overhang_areas_new[i])
-  non_overhang_contour = clip_contour(combined_polygon_new)
-  ```
+    ```python
+    for i in range(layers_to_consider):
+      combined_polygon = []
+      for k in range(i-1):
+        combined_polygon.append(overhang_areas[k])
+      overhang_areas_new[i] = clip_current(combined_polygon)
+    combined_polygon_new = []
+    for i in range(len(overhang_areas_new)):
+      combined_polygon_new.append(overhang_areas_new[i])
+    non_overhang_contour = clip_contour(combined_polygon_new)
+    ```
 
 
 
