@@ -20,15 +20,27 @@ The temperature fields for single lines are calculated using the semi-analytical
 The underlying relationship between the energy-input by the electron beam and the heat-diffusion away from the beam path is visible by comparing the temperature fields of single lines with same energy input but higher velocities. With higher beam velocity, the time for heat diffusion is lower when the beam reaches the end of the single and as a result, the heat is still concentrated within the melt pool and the meltpool elongates further back. In this case however, the meltpool-depth does not change since the total amount of energy is still the same for each case. 
 
 <figure>
-  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Single_Line_Geometry.png?raw=true" alt="Overhang Areas" style="width: 60%; display: block; margin: 0 auto;">
+  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Single_Line_Geometry.png?raw=true" alt="Overhang Areas" style="width: 80%; display: block; margin: 0 auto;">
     <figcaption><b>Figure 2.</b> Constant Meltpooldepth of single lines with different line energies $E_l = [125,150,175,200,225] J/m$ and linear dependency of meltpool length with increasing velocity.
   </figcaption>
 </figure>
 
 Figure 2 shows, the different meltpool depth levels for each respective line energy. A higher line energy results in a higher amount of energy deposited on the surface and hence a higher meltpooldepth. The elongation of the meltpool however increase linearly with the beam velocity.
 
+#### Hatching - Line Strategy
+In case of a hatching process, where parallel lines with a defined line offset $l_{off}$ are molten in sucession introduce the superposition of temperature fields. In case of the first hatch line the temperature prior, the temperature below the beam, is the preheating temperature (in this case 1023K). The temperature prior of subsequent hatch lines however increases due to cumulative heating with each new hatchline. This effect has two different causes. Typically the line offset is smaller than the beam diameter in order to achieve overlapping meltpools. This however leads to a heating of neighboring melt tracks. In addition the heat from previous hatch lines is able to diffuse towards the position of the subsequent hatch lines along the negative temperature gradient.
 
-The standard hatching process, where parallel lines with a defined line-offset $l_{off}$ are molten subsequently, introduces the superposition of temperature fields. As the $l_{off}$ is typically smaller then the beam diameter, neighboring hatch lines are already heated from previous lines and therefore melt on a higher temperature baseline. This effects the meltpool geometry, which increases with each subsequent hatchline due to the superposition of temperature fields. This change of the meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. 
+The increasing temperature prior effects the meltpool geomentry, which increases with each subsequent hatch line. The melt pool geometry changes in the **transient** phase of the hatch and converges when the temperature prior reaches its maximum. This is the case when the heat diffusion from previous hatch lines does not influence the current hatchline anymore. In this **quasi-stationary** state the meltpool geometry changes in a periodical fashion over the remaining course of the hatch.
+
+<figure>
+  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Temperature_Prior.png?raw=true" alt="Overhang Areas" style="width: 60%; display: block; margin: 0 auto;">
+    <figcaption><b>Figure 3.</b> Temperature prior: Temperature at the surface at the start of each new hatch line. The temperature piror increase in the transient phase and reaches its maximum after a specific number of lines. 
+  </figcaption>
+</figure>
+
+
+
+
 
 The meltpool geomtery in the quasi-stationary state of the hatch also changes with respect to the processing parameters $P,v,L_{off},T_{preheat},\sigma_{beam}$, similar to the single line. However, second-order interactions make for a complex system that has to be described.
 
