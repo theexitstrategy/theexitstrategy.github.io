@@ -33,11 +33,12 @@ In case of a hatching process, where parallel lines with a defined line offset $
 The increasing temperature prior effects the meltpool geomentry, which increases with each subsequent hatch line. The melt pool geometry changes in the **transient** phase of the hatch and converges when the temperature prior reaches its maximum. This is the case when the heat diffusion from previous hatch lines does not influence the current hatchline anymore. In this **quasi-stationary** state the meltpool geometry changes in a periodical fashion over the remaining course of the hatch.
 
 <figure>
-  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Temperature_Prior.png?raw=true" alt="Overhang Areas" style="width: 60%; display: block; margin: 0 auto;">
-    <figcaption><b>Figure 3.</b> Temperature prior: Temperature at the surface at the start of each new hatch line. The temperature piror increase in the transient phase and reaches its maximum after a specific number of lines. 
+  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Temperature_Prior.png?raw=true" alt="Overhang Areas" style="width: 90%; display: block; margin: 0 auto;">
+    <figcaption><b>Figure 3.</b> (a) Temperature prior: Temperature at the surface at the start of each new hatch line. The temperature piror increase in the transient phase and reaches its maximum after a specific number of lines. (b) Melt pool depth map: Two-dimensional spatial representation of the maximum melt pool depth at each position of the hatch.
   </figcaption>
 </figure>
 
+Figure 3 (b) shows the melt pool depth map for $P=600W,v=4m/s$ where the melt pool depth increases from the first hatch line with each additional hatch line in the transient phase until a constant melt pool depth is reached over the complete hatch in the quasi-stationary state. In addition, boundary effects due to the gaussian beam shape and the conduction of heat in the colder solid at the boundaries can be observed.
 
 
 
