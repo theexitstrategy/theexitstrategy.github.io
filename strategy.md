@@ -5,16 +5,21 @@ title: Strategy
 
 The strategy of this project can be seperated into three distinct parts:
 
-### 1. Spatio-temporal meltpool evolution
-The first part focuses on the description of the spatio-temporal evolution of temperature fields to understand the underlying relationships between process parameters and the emerging temperature field.
+### Chapter 1: Spatio-temporal meltpool evolution
+The first Chapter focuses on the spatio-temporal evolution of temperature fields to built intuition about the underlying relationships between process parameters and emerging temperature fields.
 
-The temperature fields for *single-lines* are determined and the meltpool geometry is described using the `meltpool-depth` and the `meltpool-length`. The underlying relationship between *energy-input* by the electron beam and *heat-diffusion* away from the beam path can be clearly shown with the elongation of the meltpool at higher $v$ with the same energy input at each point $\frac{P}{v}=const.$. In this case the time for heat diffusion is lower when the beam reaches the end of the single line and as a result, the heat is still concentrated within the melt pool and the meltpool elongates.
+#### Single Lines
+The temperature fields for single lines are calculated using the semi-analytical solution of the transient temperature field. The emerging meltpool geometry is described using the *meltpool-depth* and the *meltpool-length*. Different combinations of Beam Power $P$ and Beam Velocity $v$ have been used to study the parameter dependence. For each series, the energy input at each point in $[J]$ was kept constant by choosing parameters in a way that the line energy $\frac{P}{v}=const.$. Figure 1. shows the fraction of energy input at each position for a gaussian distribution with $\sigma = 400e-6m$. The cumulative sum accounts to 1. Therefore the total beam power in $J/s$ is deposited at each point the beam crosses. The total amount of energy can be calcualted by multiplying the time needed for the passing with the energy input per second.
 
 <figure>
   <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Gaussian_Sum.png?raw=true" alt="Overhang Areas" style="width: 60%; display: block; margin: 0 auto;">
     <figcaption><b>Figure 1.</b> Cross Section of a gaussian distribution with $\sigma = 400e-6 m$ and the cumulative sum.
   </figcaption>
 </figure>
+
+The underlying relationship between the energy-input by the electron beam and the heat-diffusion away from the beam path is visible by comparing the temperature fields of single lines with same energy input but higher velocities. With higher beam velocity, the time for heat diffusion is lower when the beam reaches the end of the single and as a result, the heat is still concentrated within the melt pool and the meltpool elongates further back. In this case however, the meltpool-depth does not change since the total amount of energy is still the same for each case. The elongation of the meltpool increases linearily with the beam velocity.
+
+
 
 
 The standard hatching process, where parallel lines with a defined line-offset $l_{off}$ are molten subsequently, introduces the superposition of temperature fields. As the $l_{off}$ is typically smaller then the beam diameter, neighboring hatch lines are already heated from previous lines and therefore melt on a higher temperature baseline. This effects the meltpool geometry, which increases with each subsequent hatchline due to the superposition of temperature fields. This change of the meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. 
