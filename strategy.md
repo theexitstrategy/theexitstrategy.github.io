@@ -17,9 +17,15 @@ The temperature fields for single lines are calculated using the semi-analytical
   </figcaption>
 </figure>
 
-The underlying relationship between the energy-input by the electron beam and the heat-diffusion away from the beam path is visible by comparing the temperature fields of single lines with same energy input but higher velocities. With higher beam velocity, the time for heat diffusion is lower when the beam reaches the end of the single and as a result, the heat is still concentrated within the melt pool and the meltpool elongates further back. In this case however, the meltpool-depth does not change since the total amount of energy is still the same for each case. The elongation of the meltpool increases linearily with the beam velocity.
+The underlying relationship between the energy-input by the electron beam and the heat-diffusion away from the beam path is visible by comparing the temperature fields of single lines with same energy input but higher velocities. With higher beam velocity, the time for heat diffusion is lower when the beam reaches the end of the single and as a result, the heat is still concentrated within the melt pool and the meltpool elongates further back. In this case however, the meltpool-depth does not change since the total amount of energy is still the same for each case. 
 
+<figure>
+  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Single_Line_Geometry.png?raw=true" alt="Overhang Areas" style="width: 60%; display: block; margin: 0 auto;">
+    <figcaption><b>Figure 2.</b> Constant Meltpooldepth of single lines with different line energies $E_l = [125,150,175,200,225] J/m$ and linear dependency of meltpool length with increasing velocity.
+  </figcaption>
+</figure>
 
+Figure 2 shows, the different meltpool depth levels for each respective line energy. A higher line energy results in a higher amount of energy deposited on the surface and hence a higher meltpooldepth. The elongation of the meltpool however increase linearly with the beam velocity.
 
 
 The standard hatching process, where parallel lines with a defined line-offset $l_{off}$ are molten subsequently, introduces the superposition of temperature fields. As the $l_{off}$ is typically smaller then the beam diameter, neighboring hatch lines are already heated from previous lines and therefore melt on a higher temperature baseline. This effects the meltpool geometry, which increases with each subsequent hatchline due to the superposition of temperature fields. This change of the meltpool geometry in the **transient** phase of the hatch converges in the **quasi-stationary** state and the meltpool geometry changes in a periodical fashion over the remainder of hatch. 
