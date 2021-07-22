@@ -20,7 +20,7 @@ The temperature fields for single lines are calculated using the semi-analytical
 The underlying relationship between the energy-input by the electron beam and the heat-diffusion away from the beam path is visible by comparing the temperature fields of single lines with same energy input but higher velocities. With higher beam velocity, the time for heat diffusion is lower when the beam reaches the end of the single and as a result, the heat is still concentrated within the melt pool and the meltpool elongates further back. In this case however, the meltpool-depth does not change since the total amount of energy is still the same for each case. 
 
 <figure>
-  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Single_Line_Geometry.png?raw=true" alt="Overhang Areas" style="width: 80%; display: block; margin: 0 auto;">
+  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Single_Line_Geometry.png?raw=true" alt="Overhang Areas" style="width: 100%; display: block; margin: 0 auto;">
     <figcaption><b>Figure 2.</b> Constant Meltpooldepth of single lines with different line energies $E_l = [125,150,175,200,225] J/m$ and linear dependency of meltpool length with increasing velocity.
   </figcaption>
 </figure>
