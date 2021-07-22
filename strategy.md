@@ -13,7 +13,7 @@ The temperature fields for single lines are calculated using the semi-analytical
 
 <figure>
   <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Gaussian_Sum.png?raw=true" alt="Overhang Areas" style="width: 100%; display: block; margin: 0 auto;">
-    <figcaption><b>Figure 1.</b> Cross Section of a gaussian distribution with $\sigma = 400e-6 m$ and the cumulative sum.
+    <figcaption><b>Figure 1.</b> (a) Cross Section of a gaussian distribution with $\sigma = 400e-6 m$ and the cumulative sum. (b) Meltpool geometries of single lines with equal energy input and increasing velocity.
   </figcaption>
 </figure>
 
