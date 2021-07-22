@@ -59,6 +59,8 @@ Based on these representations, simple conditions can be formulated that create 
 
 
 
+## Todo
+
 **Prometheus**
 - Implementation of waiting time segments around the current geometry instead of the complete preheating area to reduce the jump length back towards the actual hatch line and prevent potential inaccuracies.
   - Add center coordinates of the contour and the bounding rectangle to hdf5 output for better accessablity
