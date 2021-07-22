@@ -12,7 +12,7 @@ The first Chapter focuses on the spatio-temporal evolution of temperature fields
 The temperature fields for single lines are calculated using the semi-analytical solution of the transient temperature field. The emerging meltpool geometry is described using the *meltpool-depth* and the *meltpool-length*. Different combinations of Beam Power $P$ and Beam Velocity $v$ have been used to study the parameter dependence. For each series, the energy input at each point in $[J]$ was kept constant by choosing parameters in a way that the line energy $\frac{P}{v}=const.$. Figure 1. shows the fraction of energy input at each position for a gaussian distribution with $\sigma = 400e-6m$. The cumulative sum accounts to 1. Therefore the total beam power in $J/s$ is deposited at each point the beam crosses. The total amount of energy can be calcualted by multiplying the time needed for the passing with the energy input per second.
 
 <figure>
-  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Gaussian_Sum.png?raw=true" alt="Overhang Areas" style="width: 60%; display: block; margin: 0 auto;">
+  <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Gaussian_Sum.png?raw=true" alt="Overhang Areas" style="width: 100%; display: block; margin: 0 auto;">
     <figcaption><b>Figure 1.</b> Cross Section of a gaussian distribution with $\sigma = 400e-6 m$ and the cumulative sum.
   </figcaption>
 </figure>
