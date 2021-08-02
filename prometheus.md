@@ -26,6 +26,22 @@ Currently different possibilites exist to compute the hatches from an arbitrary 
 
 
 ---
+General Framwork:
+
+1. Calculation of hatch vectors from the CAD files via Prometheus
+2. Transfer of hatch vectors into native machine format with different interfaces; For each type of machine a different interface is necessary:
+	- Athene, Helios: BeamFigure files (.b00) 
+	- SLM-Laser, LMD: G-Code
+	- Freemelt: Native File Format
+
+Each native file format has different possibilities and extend the information from hatch path and velocity to power and focus.
+
+**ProBeam**: In case of the BeamFigure file format the hatch path with the velocity of each individual hatch line is combined into absolute and relative vectors with a different number of points (corresponding to the velocity with the help of the point residence time 2e-9s of the beam). Due to the seperation of the temporal beam path and the beam power and focus (welding system with a stationary state), the beam power and the focus have to be manually set at the machine.
+
+$/rightarrow$ Currently Prometheus focused on just providing beam paths and velocities, but for the further extension the power and focus values can also be added to each individual hatch vector.
+
+
+---
 The goal is to determine hatching strategies and the final vectors using *Prometheus* and transfering the calculated hatches to the native machine format using appropriate interface modules.
 
 <figure>
