@@ -38,7 +38,7 @@ Each native file format has different possibilities and extend the information f
 
 **ProBeam**: In case of the BeamFigure file format the hatch path with the velocity of each individual hatch line is combined into absolute and relative vectors with a different number of points (corresponding to the velocity with the help of the point residence time 2e-9s of the beam). Due to the seperation of the temporal beam path and the beam power and focus (welding system with a stationary state), the beam power and the focus have to be manually set at the machine.
 
-$/rightarrow$ Currently Prometheus focused on just providing beam paths and velocities, but for the further extension the power and focus values can also be added to each individual hatch vector.
+&#8594; Currently Prometheus focused on just providing beam paths and velocities, but for the further extension the power and focus values can also be added to each individual hatch vector.
 
 
 ---
