@@ -11,6 +11,7 @@ title: Notes on Prometheus
 	- [ ] Heat Dissipation Hatch: Constant Return time (Melt & Waiting time segments)
 	- [ ] Partial Preheating: Matching Energy levels for transient and quasi-static regions of the hatch
 	- [ ] Overhang detection: Different Thermal diffusivity below the meltpool.
+
 ---
 **Prometheus:** Generation of custom hatching strategies to precisely control the spatio-temporal energy input for arbitrary complex geometries from predefined CAD-models.
 
