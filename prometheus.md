@@ -2,7 +2,16 @@
 layout: page
 title: Notes on Prometheus
 ---
-
+**Todo**:
+- [ ] Create Visualizations of each abstraction layer and their unique features
+	- [ ] Model: Render of different Models within one build.
+	- [ ] Slice: Single Slice Layer with different Contour definitions (Parent, child, hole)
+	- [ ] Hatch: Schematic of the Different Hatch variations (with high line offsetf or better visualization)
+- [ ] Description of the new features and their underlying physics
+	- [ ] Heat Dissipation Hatch: Constant Return time (Melt & Waiting time segments)
+	- [ ] Partial Preheating: Matching Energy levels for transient and quasi-static regions of the hatch
+	- [ ] Overhang detection: Different Thermal diffusivity below the meltpool.
+---
 **Prometheus:** Generation of custom hatching strategies to precisely control the spatio-temporal energy input for arbitrary complex geometries from predefined CAD-models.
 
 Hierarchical Code structure representing each abstraction layer of the process:
@@ -22,7 +31,6 @@ Currently different possibilites exist to compute the hatches from an arbitrary 
 	- Normal Hatch: Global grid of Parallel Lines starting from the common bounding box of each parent contour. Possible Parameters (Line Offset, Rotation Angle, Line Order, Number of Multiple Hatch Segments)
 	-	Bucket Sort Hatch: Parallel Hatch Lines starting from the bounding box of each indivual parent contour combined into a global grid of buckets with the width of one line offset. (Pro: Contour of each individual contour can be matched in an exact fashion $\Leftrightarrow$ Error in the normal hatch due to global grid alignment). Possible Parameters (Line Offset, Rotation Angle, Line Order, Number of Multiple Melt Segments)
 	- Radial Hatch: Radial Hatch lines from the center of the contour outwards over all combined parent contours. Possible Parameters (Line Offset at the mean distance of the geometry intersections, Number of Multiple Melt Segments, Line Order)
-
 
 
 ---
