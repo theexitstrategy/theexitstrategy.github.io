@@ -93,3 +93,4 @@ Based on these representations, simple conditions can be formulated that create 
   - The time necessary for solidification of a single line will be computed using the transient heat source model with material properties that have been adjusted for [powder parameters](https://www.nature.com/articles/s41598-017-11243-8.pdf). The necessary time should be different for each parameter combination of `P,v` and has to be converted into a "wainting time scan length" for the calculation.
     - One important question to answer here is how these properties change over multiple layers with already consolidated material below. Effective material parameters have to be obtained in order to model the effects of the following layers and adjust the necessary waiting time.
 
+- Implementation of return time maps for complex geometries in order to obtain the persistence maps for geometries with inhomogeneous scan lengths and return times
