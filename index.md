@@ -9,7 +9,7 @@ The goal of this page is to function as an [Index](https://clearerthinkingpodcas
 ## Projects
 I am currently working on powder-bed based [additive manufacturing](https://en.wikipedia.org/wiki/3D_printing) focusing on electron beam based additive manufacutring. The objective is to establish a [framework](https://theexitstrategy.github.io/framework) for the fabrication of complex geometries with desired proteries. To tame the complex interactions in the process, an intuition of the the underlying principles and the relationship between different process parameters and the emerging meltpool has to be developed.
 
-## Further Topics:
+## Further Topics
 Basic ideas that have to be further expanded upon.
 
 -	Computation of [Thermal stresses](https://sci-hub.st/https://doi.org/10.4028/www.scientific.net/MSF.762.224) in complex geometries as a result of the emerging meltpool geometry.
