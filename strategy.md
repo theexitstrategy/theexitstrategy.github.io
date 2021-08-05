@@ -40,3 +40,44 @@ title: Strategy
 ## Persistence Computation
 
 - Implementation of return time maps for complex geometries in order to obtain the persistence maps for geometries with inhomogeneous scan lengths and return times
+
+```python
+# Extract Positions.
+x_list = list()
+y_list = list()
+t_list = list()
+
+dt = scaling_factor/Velocity
+for t in np.arange(dt/2,duration,dt/4):
+    x_list.append(domain.find_x_position_dim(t))
+    y_list.append(domain.find_y_position_dim(t))
+    t_list.append(t)
+
+# Transform real coordinates into mesh coordinates
+x = np.asarray(x_list)/scaling_factor
+y = np.asarray(y_list)/scaling_factor
+
+x = x + x_pos
+y = y + y_pos
+
+time_grid = np.zeros((y_size,x_size))
+x = np.rint(x).astype(int)
+y = np.rint(y).astype(int)
+time_grid[y,x] = np.asarray(t_list)
+
+# Create Return time Grid from time Grid (only from left to right)
+# Possibly necessary to turn the hatching pattern to match the direction.
+time_grid=np.fliplr(time_grid)
+ret_time_grid = np.zeros((y_size,x_size))
+for i in tqdm.tqdm(range(time_grid.shape[0])):
+    row = time_grid[i,:]
+    ids = np.where(row > 0)
+    for k,id in enumerate(ids[0]):
+        if k == 0:
+            pass
+        else:
+            if ids[0][k]-ids[0][k-1] < 2*(100e-6/scaling_factor):
+                ret_time_grid[i,id] = (row[ids[0][k]]- row[ids[0][k-1]])
+            else:
+                pass
+```
