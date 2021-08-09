@@ -81,3 +81,10 @@ for i in tqdm.tqdm(range(time_grid.shape[0])):
             else:
                 pass
 ```
+
+## Solidification Condition Computation
+- Description of the quasi-stationary state with cooling rate, temperature gradient and solidification velocity
+  - Unification of parameters in the G-V diagram ($G \cdot v$, $\frac{G}{v})
+  - Use the mean value for each column in of the center cross section
+  - Determine trends accross the process parameter space
+- Description of the solidification conditions in 2 dimensions from the 3 dimensional data in order to identify the different regions
