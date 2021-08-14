@@ -21,3 +21,4 @@ Basic ideas that have to be further expanded upon.
 ## Link List:
 1.	[Principles of Effective Research](https://michaelnielsen.org/blog/principles-of-effective-research/)
 2.	[Mimetic theory](https://en.wikipedia.org/wiki/Mimetic_theory)
+3.	[On Caffine use](https://www.youtube.com/watch?v=mAPG18zNtXk&list=LL&index=1&t=601s)
