@@ -23,3 +23,4 @@ Basic ideas that have to be further expanded upon.
 2.	[Mimetic theory](https://en.wikipedia.org/wiki/Mimetic_theory)
 3.	[On Caffine use](https://www.youtube.com/watch?v=mAPG18zNtXk&list=LL&index=1&t=601s)
 4.  [Learning Dynamical Systems with Autoencoder Neural Networks](https://www.youtube.com/watch?v=KmQkDgu-Qp0) Could be interesting to find a linear representation of processing parameters to meltpooldepth and shape?
+	1. [Deep learning for universal linear embeddings of nonlinear dynamics](https://www.nature.com/articles/s41467-018-07210-0.pdf) 
