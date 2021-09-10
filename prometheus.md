@@ -2,18 +2,8 @@
 layout: page
 title: Notes on Prometheus
 ---
-**Todo**:
-- [ ] Create Visualizations of each abstraction layer and their unique features
-	- [ ] Model: Render of different Models within one build.
-	- [ ] Slice: Single Slice Layer with different Contour definitions (Parent, child, hole)
-	- [ ] Hatch: Schematic of the Different Hatch variations (with high line offsetf or better visualization)
-- [ ] Description of the new features and their underlying physics
-	- [ ] Heat Dissipation Hatch: Constant Return time (Melt & Waiting time segments)
-	- [ ] Partial Preheating: Matching Energy levels for transient and quasi-static regions of the hatch
-	- [ ] Overhang detection: Different Thermal diffusivity below the meltpool.
 
----
-**Prometheus:** Generation of custom hatching strategies to precisely control the spatio-temporal energy input for arbitrary complex geometries from predefined CAD-models.
+Prometheus: Generation of custom hatching strategies to precisely control the spatio-temporal energy input for arbitrary complex geometries from predefined CAD-Models.
 
 Hierarchical Code structure representing each abstraction layer of the process:
 
