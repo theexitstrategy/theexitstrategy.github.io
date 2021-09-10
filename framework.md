@@ -12,6 +12,7 @@ Additive Manufacturing is a sequence of welding processes, therefore it is first
 
 ## Single Lines
 The temperature fields for single lines are calculated using the semi-analytical solution of the transient temperature field. The emerging meltpool geometry is described using the `meltpool depth` and the `meltpool length`. Different combination of `beam power P` and `beam velocity v` were used to study the parameter dependence. For each series, the total energy input at each point $[J]$ was kept constant by choosing parameters in a way that the `line energy` $\frac{P}{v}=const.$. Figure 1. shows the fraction of energy input at each position for a gaussian distribution with $\sigma = 400e-6m$. he cumulative sum accounts to 1. Therefore the total beam power in $J/s$ is deposited at each point the beam crosses. The total amount of energy can be calcualted by multiplying the time needed for the passing with the energy input per second.
+
 ---
 <figure>
   <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Gaussian_Sum.png?raw=true" alt="Overhang Areas" style="width: 100%; display: block; margin: 0 auto;">
@@ -19,7 +20,9 @@ The temperature fields for single lines are calculated using the semi-analytical
   </figcaption>
 </figure>
 ---
+
 The underlying relationship between the energy input by the electron beam and the heat diffusion away from the beam path is visible by comparing the temperature fields of the single lines with the same energy input $E_l = const.$ but higher velocities. With higher beam velocity, the time for heat diffusion is lower when the beam reaches the end of the single line and as a result the heat is still concentrated within the meltpool and the length of the meltpool increases. The meltpool depth however does not change since the total amount of energy is still the same for each case.
+
 ---
 <figure>
   <img src="https://github.com/theexitstrategy/theexitstrategy.github.io/blob/master/imgs/Single_Line_Geometry.png?raw=true" alt="Overhang Areas" style="width: 100%; display: block; margin: 0 auto;">
@@ -27,6 +30,7 @@ The underlying relationship between the energy input by the electron beam and th
   </figcaption>
 </figure>
 ---
+
 Figure 2 shows the different meltpool depths for each respective line energy. With higher line energy, the total amount of energy deposited on the surface is higher and results in a higher meltpool depth.The elongation of the meltpool however increase linearly with the beam velocity.
 
 
