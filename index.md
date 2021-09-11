@@ -12,6 +12,8 @@ I am currently working on powder-bed based [additive manufacturing](https://en.w
 ## Further Topics
 Basic ideas that have to be further expanded upon.
 
+> Every problem needs appropriate tools to be solved!
+
 -	Computation of [Thermal stresses](https://sci-hub.st/https://doi.org/10.4028/www.scientific.net/MSF.762.224) in complex geometries as a result of the emerging meltpool geometry.
 -	Influence of [Overhang Areas](https://theexitstrategy.github.io/overhang) on the emerging meltpool geometry and solidification conditions. The goal is to find an effective thermal diffusivity for melting diretly into the power and subsequent alyers to compute optimal processing parameters.
 - Adaption of the semi-analytical heat conduction model for different power density distributions ([Top-Hat](https://www.edmundoptics.eu/contentassets/a22cc770fce541438bb18385a20ebb07/why-use-a-flat-top-laser-beam-fig-1.png)) to achieve the same calculation speed for other important processes. This process should be able to be adapted similar to the calculation of a pseudo-gaussian distribution from [segmental ring heat sources](https://link.springer.com/content/pdf/10.1007/s11663-000-0022-2.pdf). Except in this case the power distribution has to be integrated over the top hat profile instead.
